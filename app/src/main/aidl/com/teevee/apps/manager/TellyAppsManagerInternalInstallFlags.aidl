@@ -1,4 +1,4 @@
-package com.example.apps.manager;
+package com.teevee.apps.manager;
 
 @JavaDerive(toString = true)
 @Backing(type="int")

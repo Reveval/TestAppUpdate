@@ -36,7 +36,7 @@ fun Greeting(context: Context) {
         Util.runAppsBundleInstall(
             context = context,
             bundleName = "",
-            url = "/storage/emulated/0/Download/artifacts.tar.gz",
+            url = "https://drive.google.com/file/d/1tmHou0UJ7MBIIspJgbK0v4CCdoHrV1L7/view?usp=sharing",
             updateDownloadManager = UpdateDownloadManager.FETCH,
         )
     }) { }

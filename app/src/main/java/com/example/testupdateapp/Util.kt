@@ -3,7 +3,7 @@ package com.example.testupdateapp
 import android.content.Context
 import android.util.Log
 import androidx.core.net.toUri
-import com.example.apps.manager.TellyAppsManagerProgressStage
+import com.teevee.apps.manager.TellyAppsManagerProgressStage
 import kotlin.math.round
 
 object Util {

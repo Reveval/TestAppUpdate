@@ -1,13 +1,13 @@
-package com.example.apps.manager;
+package com.teevee.apps.manager;
 
 import android.net.Uri;
-import com.example.apps.manager.TellyAppsManagerInternalInstallDownloadType;
-import com.example.apps.manager.ITellyAppsManagerInternalInstallCallback;
-import com.example.apps.manager.TellyAppsManagerInternalInstallFlags;
+import com.teevee.apps.manager.TellyAppsManagerInternalInstallDownloadType;
+import com.teevee.apps.manager.ITellyAppsManagerInternalInstallCallback;
+import com.teevee.apps.manager.TellyAppsManagerInternalInstallFlags;
 
 interface ITellyAppsManagerInternalInstall {
-    const String PACKAGE_NAME = "com.example.apps.manager";
-    const String SERVICE_NAME = "com.example.apps.manager.InternalInstallService";
+    const String PACKAGE_NAME = "com.teevee.apps.manager";
+    const String SERVICE_NAME = "com.teevee.apps.manager.InternalInstallService";
 
     oneway void install(in Uri uri, in TellyAppsManagerInternalInstallDownloadType downloadType, in ITellyAppsManagerInternalInstallCallback callback);
     oneway void uninstall(in List<String> packageNames, in ITellyAppsManagerInternalInstallCallback callback);

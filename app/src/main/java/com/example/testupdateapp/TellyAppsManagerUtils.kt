@@ -7,10 +7,10 @@ import android.content.ServiceConnection
 import android.net.Uri
 import android.os.IBinder
 import androidx.core.content.ContextCompat
-import com.example.apps.manager.ITellyAppsManagerInternalInstall
-import com.example.apps.manager.ITellyAppsManagerInternalInstallCallback
-import com.example.apps.manager.TellyAppsManagerInstallResult
-import com.example.apps.manager.TellyAppsManagerProgressResult
+import com.teevee.apps.manager.ITellyAppsManagerInternalInstall
+import com.teevee.apps.manager.ITellyAppsManagerInternalInstallCallback
+import com.teevee.apps.manager.TellyAppsManagerInstallResult
+import com.teevee.apps.manager.TellyAppsManagerProgressResult
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 

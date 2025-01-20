@@ -1,6 +1,6 @@
-package com.example.apps.manager;
+package com.teevee.apps.manager;
 
-import com.example.apps.manager.TellyAppsManagerProgressStage;
+import com.teevee.apps.manager.TellyAppsManagerProgressStage;
 
 @JavaDerive(toString = true)
 parcelable TellyAppsManagerProgressResult {

@@ -1,7 +1,7 @@
-package com.example.apps.manager;
+package com.teevee.apps.manager;
 
-import com.example.apps.manager.TellyAppsManagerInstallStage;
-import com.example.apps.manager.TellyAppsManagerInstallStatus;
+import com.teevee.apps.manager.TellyAppsManagerInstallStage;
+import com.teevee.apps.manager.TellyAppsManagerInstallStatus;
 
 @JavaDerive(toString = true)
 parcelable TellyAppsManagerInstallResult {
